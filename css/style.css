@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+body header{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header{
+  margin-top: 15px;
+}
+
+.overview{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  background-color: rgba(0, 81, 255, 0.2);
+  align-items: center;
+}
+
+#hello{
+  color: blue;
+}
+
+#name{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#job{
+  font-size: 30px;
+}
+
+#summary{
+  color: rgb(80, 79, 79);
+}
+
+#look_work{
+  background-color: rgb(1, 154, 255);
+  border: 1px solid rgb(1, 154, 255);
+  color: white;
+  padding: 10px 20px;
+  margin: 0px 10px;
+  margin-left: 0px;
+}
+
+#inquiry{
+  background-color: transparent;
+  border: 1px solid rgb(58, 84, 230);
+  color: rgb(58, 84, 230);
+  padding: 10px 20px;
+  margin: 0px 10px;
+}
+
+#link_div{
+  text-align: left;
+}
+
+#link{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  padding-left: 0px;
+  margin: 20px 0px;
+}
+
+#link a{
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#link a i{
+  font-size: 25px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.headline{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 4px solid blue;
+  margin: 50px;
+}
+
+main{
+  margin: 0px 100px;
+}
+
+#self-introduction_contents{
+  display: flex;
+  gap: 200px;
+}
+
+.label{
+  display: inline-block;
+  width: 70px;
+}
+
+.value{
+  text-align: left;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+.grid-item{
+  background-color: rgba(198, 235, 194, 0.7);
+  padding: 30px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+.grid-item .skill-name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.grid-item .skill-desc{
+  font-size: 14px;
+}
+
+#inquiry-form{
+  list-style: none;
+  text-align: center;
+}
+
+.inquiry-text, .inquiry-textarea{
+  margin: 10px;
+  width: 400px;
+  color: gray;
+}
+
+.inquiry-textarea{
+  padding-bottom: 50px;
+}
+
+#send-div{
+  text-align: center;
+}
+
+#send-button{
+  background-color: rgb(1, 154, 255);
+  border: 1px solid rgb(1, 154, 255);
+  color: white;
+  padding: 10px 20px;
+}
+
+footer{
+  text-align: center;
+  background-color: rgb(28, 34, 110);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  padding: 10px 0px;
+  margin-top: 50px;
+}
